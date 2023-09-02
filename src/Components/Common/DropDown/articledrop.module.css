@@ -1,0 +1,44 @@
+.drop-wrapper {
+  width: 360px;
+  padding: 10px 15px;
+}
+.filter-by-date {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input {
+  width: 48%;
+  padding-right: 10px;
+}
+.apply-btn {
+  width: 127px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #f01716;
+  color: #f01716;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 6px;
+  margin: 8px;
+}
+
+.clear-btn {
+  width: 77px;
+  height: 35px;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+  margin: 8px;
+  color: #4a5981;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: center;
+}
+.icon {
+  margin-right: 4px;
+}

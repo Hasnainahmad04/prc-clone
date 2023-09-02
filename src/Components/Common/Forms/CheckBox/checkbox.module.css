@@ -1,0 +1,16 @@
+.checkBox {
+  border: 1px solid #838181 !important;
+  width: 20px !important;
+  height: 20px !important;
+  accent-color: #f01716 !important;
+}
+.checkBox:checked {
+  outline: none;
+}
+.checkLabel {
+  margin-left: 10px;
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  vertical-align: baseline;
+}

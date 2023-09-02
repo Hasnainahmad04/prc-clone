@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Inter;
+  src: url(./assets/Inter-Light.ttf);
+}
+* {
+  font-family: Inter !important;
+}
+body {
+  background-color: #f2f2f2 !important;
+}
+div.content {
+  margin-left: 260px;
+  padding: 1px 16px;
+  min-height: 1000px;
+}
+.header_text {
+  color: #4a5981;
+  font-size: 20px;
+  font-weight: 400;
+}
+.text_danger {
+  color: #f01716;
+}
+.text_gray {
+  color: #939393;
+}
+.text_black {
+  color: black;
+}
+.card_container {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
+@media screen and (max-width: 768px) {
+  .card_container {
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  div.content {
+    margin-left: 0;
+  }
+}
+.btn-fill-150 {
+  font-family: serif;
+  width: auto;
+  width: 140px;
+  height: 50px;
+  font-size: 16px;
+  border: 1px solid #f01716;
+  font-weight: 600;
+  color: #f2f2f2;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #f01716;
+  box-shadow: 2px 4px 12px 0px #00000026;
+}
+
+.btn-outline-150 {
+  font-family: serif;
+  width: 140px;
+  margin: 5px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f01716;
+  border: 1px solid #f01716;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 12px 0px #00000026;
+}
+.btn-fill-150:hover {
+  background-color: #e91313;
+  color: #ffffff;
+  transition: all 0.7s;
+}
+.btn-fill-150:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: #f01716 !important;
+  border-color: #f01716;
+}
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(253, 13, 33, 0.25) !important;
+}
+.form-check-input {
+  width: 40px !important;
+  height: 24px !important;
+}
+.hr {
+  border-top: 1px solid #ebebeb;
+  width: 100%;
+  margin: 10px 0;
+}
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 5em 0;
+}

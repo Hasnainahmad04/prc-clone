@@ -1,0 +1,38 @@
+.text_color {
+  color: #f01716;
+}
+
+.add_btn {
+  background-color: #f01716;
+  border-radius: 5px;
+  width: 192px;
+  height: 46px;
+  border: none;
+  font-size: 14px;
+
+  color: #ffffff;
+  box-shadow: 0px 0px 4px 0px #00000026;
+  cursor: pointer;
+}
+
+.filter_btn {
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+  width: 108px;
+  height: 46px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 0px #00000026;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.add_btn:hover {
+  background-color: #c90f0f;
+  transition: all 0.5s;
+}
+
+.filter_btn:hover {
+  background-color: #f7f7f7;
+  transition: all 0.5s;
+}
